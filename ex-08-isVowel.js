@@ -5,8 +5,17 @@
  * whether a character is a vowel or not.
  *
  **/
-
-
+function isVowel(word) {
+  var word = ""
+  var vowel = ["a", "e", "i", "o", "u"]
+  for (var i = 0; i < word.length; i++) {
+    if (word[i] === vowel) {
+      return true
+    } else {
+      return false
+    }
+  }
+}
 
 
 

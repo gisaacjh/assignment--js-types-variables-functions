@@ -6,11 +6,15 @@
  *
  **/
 
-function simpleSum(){
+function simpleSum(a, b) {
 	//YOUR CODE HERE
-   //  -- NOTE you will need to write the functions for
+  //  note you will need to write the functions for
    //     remaining problems in the problem set
+
+ var sum = a + b;
+
 }
+
 
 
 console.assert( simpleSum(8, 11) === 19 );

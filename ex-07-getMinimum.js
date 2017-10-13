@@ -5,6 +5,11 @@
  * and returns the one with the lowest value.
  *
  **/
+ function getMinimum(numbers) {
+   var numbers = 1, 2, 4, 0
+   var minimum = Math.min(1, 2, 4, 0)
+console.log(minimum)
+ }
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*

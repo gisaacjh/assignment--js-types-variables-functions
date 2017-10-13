@@ -13,7 +13,9 @@
  * or a non-number data type.
  *
  **/
+function getSeasonForMonth() {
 
+}
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*

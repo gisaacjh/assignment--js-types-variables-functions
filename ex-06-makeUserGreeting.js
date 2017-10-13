@@ -15,9 +15,14 @@
  * then the function should return a 'Welcome, «username»!' greeting
  *    Ex: makeUserGreeting('Janet', false) //=> "Welcome, Janet!"
  *
- * NOTE: Don't forget the comma and space and ending puctuation when building the string.
+ * note: Don't forget the comma and space and ending puctuation when building the string.
  **/
-
+function makeUserGreeting(username, boolean) {
+  var username = "Atushi"
+  if (boolean === true) {
+    console.log("Good to see you again, " + username);
+  }
+}
 
 
 

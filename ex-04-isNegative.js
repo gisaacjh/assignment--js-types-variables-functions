@@ -5,7 +5,19 @@
  * whether a number is negative or not.
  *
  **/
+ function isNegative(num) {
+   if (num > 0) {
+     return true
+   } else {
+     return false
+   }
+ }
 
+console.log(isNegative(14));
+console.log(isNegative(2));
+console.log(isNegative(0));
+console.log(isNegative(-1));
+console.log(isNegative(-64));
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 
 console.assert( isNegative(100) === false )
