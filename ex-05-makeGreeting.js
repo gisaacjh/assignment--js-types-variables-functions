@@ -7,15 +7,14 @@
  *
  **/
 
-function makeGreeting(usernames) {
- var usernames = ""
- var greet = "Hi!"
-if (usernames === ""){
- var sayHello = greet + usernames;
- 
- }
+function makeGreeting(username) {
+  var sayHello = "Hello " + username
+return sayHello
 }
 
+console.log(makeGreeting("Atushi"));
+console.log(makeGreeting("Mira"));
+console.log(makeGreeting("Nico"));
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 

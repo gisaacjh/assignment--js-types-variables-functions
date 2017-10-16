@@ -6,13 +6,15 @@
  *
  **/
  function isNegative(num) {
-   if (num > 0) {
+
+   if (num < 0) {
      return true
    } else {
      return false
-   }
- }
+  }
+}
 
+console.log(isNegative(100));
 console.log(isNegative(14));
 console.log(isNegative(2));
 console.log(isNegative(0));

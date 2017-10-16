@@ -12,9 +12,14 @@ function simpleSum(a, b) {
    //     remaining problems in the problem set
 
  var sum = a + b;
-
+return sum
 }
 
+console.log(simpleSum(8, 11));
+console.log(simpleSum(4, 101));
+console.log(simpleSum(2, 2));
+
+console.log("__________________________________________");
 
 
 console.assert( simpleSum(8, 11) === 19 );

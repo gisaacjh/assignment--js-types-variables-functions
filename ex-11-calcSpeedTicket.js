@@ -31,7 +31,11 @@
  *
  **/
 
-
+function calcSpeedTicket(spdLmt, spdRprtd, prtctdA) {
+  var speedLimit = 20
+  var
+  if () {}
+}
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*

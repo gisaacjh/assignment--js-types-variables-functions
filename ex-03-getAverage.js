@@ -10,9 +10,13 @@
 
 function getAverage(a, b) {
  var average = (a + b) / 2
+ return average
 }
 
-
+console.log(getAverage(5, 15));
+console.log(getAverage(18, 22));
+console.log(getAverage(100, 100));
+console.log(getAverage(-12, 12));
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 console.assert( getAverage(5,15) === 10 )

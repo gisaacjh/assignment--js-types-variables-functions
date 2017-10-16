@@ -18,21 +18,23 @@
  * note: Don't forget the comma and space and ending puctuation when building the string.
  **/
 function makeUserGreeting(username, boolean) {
-  var username = "Atushi"
   if (boolean === true) {
-    console.log("Good to see you again, " + username);
+    return "Good to see you again, " + username
+  } else {
+    return "Welcome, " + username + "!"
   }
 }
 
-
-
+console.log(makeUserGreeting("Atushi", true));
+console.log(makeUserGreeting("Mira", false));
+console.log(makeUserGreeting("Nico", false));
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 
 var funcOutput1 = makeUserGreeting("Atushi", true)
-console.assert( funcOutput1  === "Good to see you again, Atushi." );
+console.assert(funcOutput1  === "Good to see you again, Atushi.");
 
 var funcOutput2 = makeUserGreeting("Mira", false)
-console.assert( funcOutput2 === "Welcome, Mira!");
+console.assert(funcOutput2 === "Welcome, Mira!");
 
 var funcOutput3 = makeUserGreeting("Nico", false)
 console.assert(funcOutput3 !== "Good to see you again, Nico.");
